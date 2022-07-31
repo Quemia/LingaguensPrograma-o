@@ -1,0 +1,42 @@
+.attribution {
+  margin: 1rem;
+  font-size: 0.75rem;
+  text-align: center;
+
+  color: #000;
+  font-family: "monospace";
+
+}
+
+.links {
+  text-decoration: none;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+.card {
+  width: 30%;
+  height: auto;
+  padding: 10px;
+  margin: 5px;
+
+  text-align: left !important; 
+
+  background-color: #6f726f3a;
+  border-radius: 5px;
+  text-align: center;
+
+  color: #000;
+  font-family: "monospace";
+  font-size: 20px;
+}
+
+.cardText{
+  color: #000;
+  font-family: "monospace";
+  font-size: 15px;
+}

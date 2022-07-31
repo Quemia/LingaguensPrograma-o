@@ -1,0 +1,113 @@
+{
+  "data": {
+    "IMOVEL_CASA": [
+      {
+        "id": "1",
+        "ano_construcao": "2021",
+        "area": "500",
+        "loc": "Iniga",
+        "preco": "25000",
+        "vendido": false,
+        "tipo": "casa",
+        "idVenda": ""
+      },
+      {
+        "id": "2",
+        "ano_construcao": "2010",
+        "area": "800",
+        "loc": "Dirceu",
+        "preco": "15000",
+        "vendido": true,
+        "tipo": "casa",
+        "idVenda": 7
+      }
+    ],
+
+    "IMOVEL_APTO": [
+      {
+        "id": "1",
+        "ano_construcao": "2005",
+        "area": "400",
+        "loc": "Timon",
+        "preco": "10000",
+        "vendido": true,
+        "tipo": "apartamento",
+        "idVenda": 25
+      },
+      {
+        "id": "2",
+        "ano_construcao": "2020",
+        "area": "300",
+        "loc": "Horto",
+        "preco": "30000",
+        "vendido": false,
+        "tipo": "apartamento",
+        "idVenda": ""
+      }
+    ],
+
+    "TERRENO_URBANO": [
+      {
+        "id": "1",
+        "area": "800",
+        "vendido": true,
+        "tipo": "urbano",
+        "idVenda": 12
+      },
+      {
+        "id": "2",
+        "area": "500",
+        "vendido": false,
+        "tipo": "urbano",
+        "idVenda": ""
+      }
+    ],
+
+    "TERRENO_RURAL": [
+      {
+        "id": "1",
+        "area": "1000",
+        "vendido": true,
+        "tipo": "rural",
+        "idVenda": 27
+      },
+      {
+        "id": "2",
+        "area": "1500",
+        "vendido": false,
+        "tipo": "rural",
+        "idVenda": ""
+      }
+    ],
+
+    "FUNCIONARIO": [
+      {
+        "id": "1",
+        "nome": "Quemia",
+        "agencia": "JQW",
+        "salario": "2000",
+        "idVenda": [7, 25]
+      },
+      {
+        "id": "2",
+        "nome": "Caroline",
+        "agencia": "JQW",
+        "salario": "2000",
+        "idVenda": [12, 27]
+      }
+    ],
+
+    "CLIENTE": [
+      {
+        "id": "1",
+        "nome": "JK",
+        "cpf": "123.654.789-85"
+      },
+      {
+        "id": "2",
+        "nome": "Weverton",
+        "cpf": "987.456.321-96"
+      }
+    ]
+  }
+}
